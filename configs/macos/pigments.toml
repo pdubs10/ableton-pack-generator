@@ -1,0 +1,27 @@
+[plugin]
+name = "Pigments"
+vendor = "Arturia"
+vst3_class_id = "41727475-4156-4953-4b61-743150726f63"
+mpe_enabled = 1
+controller_state = "empty"
+
+[pack]
+id = "arturia.com/pigments"
+display_name = "Pigments"
+vendor = "Arturia"
+major_version = 1
+minor_version = 0
+revision = 0
+product_id = 2668833
+
+[input]
+nksf_dir = "/Library/Arturia/Pigments/Third Party/Native Instruments/presets"
+
+[output]
+pack_dir = "~/Music/Ableton/Custom Packs"
+
+[category_map]
+"Piano / Keys" = "Piano & Keys"
+
+[category_map]
+"Piano / Keys" = "Piano & Keys"

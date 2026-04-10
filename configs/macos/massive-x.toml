@@ -1,0 +1,42 @@
+[plugin]
+name = "Massive X"
+vendor = "Native Instruments"
+vst3_class_id = "5653544e-6924-486D-6173-736976652078"
+mpe_enabled = 1
+controller_state = "empty"
+
+[pack]
+id = "native-instruments/massive-x"
+display_name = "Massive X"
+vendor = "Native Instruments"
+major_version = 1
+minor_version = 0
+revision = 0
+product_id = 3857833
+
+[input]
+nksf_dir = [
+    "/Library/Application Support/Native Instruments/Massive X",
+    "/Users/Shared/Massive X Factory Library/Presets",
+    "/Users/Shared/Drive Library/Presets",
+    "/Users/Shared/Bounce Library/Presets",
+    "/Users/Shared/Beam Library/Presets",
+    "/Users/Shared/Bump Library/Presets",
+    "/Users/Shared/Wake Library/Presets",
+    "/Users/Shared/Kino Library/Presets",
+    "/Users/Shared/Haze Library/Presets",
+    "/Users/Shared/Fade Library/Presets",
+    "/Users/Shared/Charge Library/Presets",
+    "/Users/Shared/Mechanix Library/Presets",
+    "/Users/Shared/Moebius Library/Presets",
+    "/Users/Shared/Our House Library/Presets",
+    "/Users/Shared/Pulse Library/Presets",
+    "/Users/Shared/Rush Library/Presets",
+    "/Users/Shared/Scene Library/Presets"
+]
+
+[output]
+pack_dir = "~/Music/Ableton/Custom Packs"
+
+[category_map]
+"Piano / Keys" = "Piano & Keys"

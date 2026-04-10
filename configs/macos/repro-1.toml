@@ -1,0 +1,20 @@
+[plugin]
+name = "Repro-1"
+vendor = "u-he"
+vst3_class_id = "d39d5b69-d6af-42fa-1234-567875525f31"
+mpe_enabled = 1
+controller_state = "empty"
+
+[pack]
+id = "u-he/repro-1"
+display_name = "Repro-1"
+vendor = "u-he"
+
+[input]
+nksf_dir = "/Library/Application Support/u-he/Repro-1/NKS/Repro-1"
+
+[output]
+pack_dir = "~/Music/Ableton/Custom Packs"
+
+[category_map]
+"Piano / Keys" = "Piano & Keys"

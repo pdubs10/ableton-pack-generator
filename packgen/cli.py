@@ -25,7 +25,8 @@ def generate(config: Path, no_params: bool, dry_run: bool):
 
     missing = [d for d in plugin.nksf_dirs if not d.is_dir()]
     if missing:
-        raise click.ClickException(f"nksf_dir does not exist: {missing}")
+        click.echo(f"Warning: nksf_dir does not exist: {missing}. Ignoring...")
+        plugin.nksf_dirs = [d for d in plugin.nksf_dirs if d.is_dir()]
 
     if dry_run:
         click.echo(f"Dry run — pack: {plugin.pack_display_name}")

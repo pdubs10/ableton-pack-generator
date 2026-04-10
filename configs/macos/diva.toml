@@ -1,0 +1,24 @@
+[plugin]
+name = "Diva"
+vendor = "u-he"
+vst3_class_id = "d39d5b69-d6af-42fa-1234-567844695661"
+mpe_enabled = 1
+controller_state = "same"
+
+[pack]
+id = "u-he/diva"
+display_name = "Diva"
+vendor = "u-he"
+major_version = 1
+minor_version = 0
+revision = 0
+product_id = 2757833
+
+[input]
+nksf_dir = "/Library/Application Support/u-he/Diva/NKS/Diva"
+
+[output]
+pack_dir = "~/Music/Ableton/Custom Packs"
+
+[category_map]
+"Piano / Keys" = "Piano & Keys"
