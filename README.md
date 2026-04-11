@@ -116,8 +116,12 @@ nksf_dir = "/Users/Shared/Diva Factory Library/Presets"
 pack_dir = "~/Music/Ableton/Custom Packs"
 
 # Optional: remap NISI category names to Ableton browser names
+# Some of the default category names contain slashes that need
+# to be replaced so that they're not interpreted in the path.
+
 [category_map]
 "Piano / Keys" = "Piano & Keys"
+"Piano/Keys" = "Piano & Keys"
 ```
 
 ### Multiple input directories

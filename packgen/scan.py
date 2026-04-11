@@ -373,6 +373,10 @@ vendor = "{vendor}"
 
 [output]
 pack_dir = "{pack_dir}"
+
+[category_map]
+"Piano / Keys" = "Piano & Keys"
+"Piano/Keys" = "Piano & Keys"
 """
 
 
