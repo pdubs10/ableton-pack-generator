@@ -360,7 +360,7 @@ def render_toml(plugin: dict, nksf_dirs: list[Path], pack_dir: Path) -> str:
 name = "{name}"
 vendor = "{vendor}"
 {class_id_line}
-mpe_enabled = 2          # 1 = MPE enabled, 2 = MPE disabled — verify against plugin docs
+mpe_enabled = 1          # 1 = MPE enabled, 2 = MPE disabled — verify against plugin docs
 controller_state = "empty"  # set to "same" for some u-he plugins (e.g. Diva)
 
 [pack]
