@@ -87,7 +87,10 @@ def get_category(nisi: dict, category_map: dict) -> str:
 
     types is a list-of-lists; the second level is a sub-type qualifier, not
     a separate category. category_map handles plugin-specific name divergences.
+
+    Generally the category_map should handle invalid characters, but replace '/'
+    that it doesn't error out when the OS interprets that as a path separator.
     """
     types = nisi.get("types", [])
     raw = types[0][0] if types and types[0] else "Misc"
-    return category_map.get(raw, raw)
+    return category_map.get(raw, raw).replace('/', '&')

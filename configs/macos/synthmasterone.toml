@@ -1,0 +1,20 @@
+[plugin]
+name = "SynthMasterOne"
+vendor = "KV331 Audio"
+vst3_class_id = "56535453-6d31-6973-796e-74686d617374"
+mpe_enabled = 1
+controller_state = "empty"
+
+[pack]
+id = "kv331-audio/synthmasterone"
+display_name = "SynthMasterOne"
+vendor = "KV331 Audio"
+
+[input]
+nksf_dir = "/Users/Shared/SynthMasterOne/NKS Presets"
+
+[output]
+pack_dir = "~/Music/Ableton/Custom Packs"
+
+[category_map]
+"Piano/Keys" = "Piano & Keys"

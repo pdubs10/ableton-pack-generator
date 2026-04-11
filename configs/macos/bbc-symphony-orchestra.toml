@@ -1,0 +1,20 @@
+[plugin]
+name = "BBC Symphony Orchestra"
+vendor = "Spitfire Audio"
+vst3_class_id = "56535453-616e-7462-6263-2073796d7068"  
+mpe_enabled = 1
+controller_state = "empty"
+
+[pack]
+id = "spitfire-audio/bbc-symphony-orchestra"
+display_name = "BBC Symphony Orchestra"
+vendor = "Spitfire Audio"
+
+[input]
+nksf_dir = "~/Spitfire/Spitfire Audio - BBC Symphony Orchestra/NKS"
+
+[output]
+pack_dir = "~/Music/Ableton/Custom Packs"
+
+[category_map]
+"Piano/Keys" = "Piano & Keys"
